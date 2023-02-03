@@ -13,6 +13,10 @@ document.write(resultadoDivisão(20, 10) + '<br>')
 
 //----------------------------------------------------------------------------
 
-const incentivarQuester = nomeQuester => document.write(`Parabéns ${nomeQuester}, você chegou ao JS intermediário!`)
+const incentivarQuester = nomeQuester => document.write(`Parabéns ${nomeQuester}, você chegou ao JS intermediário!<br>`)
 
 incentivarQuester('Rodrigo')
+
+const dizerOla = nick => document.write(`Olá senhor ${nick}! Bem vindo!`)
+
+dizerOla('Rodrigo')
